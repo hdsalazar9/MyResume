@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+.bodyBackground{
+  font-family: 'Sarabun', sans-serif;
+  color: #1E3231;
+  margin: 3% 5%;
+}
+
+.divMainInfo{
+  float: none;
+  width: 100%;
+}
+
+.cvImage{
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.mainSection{
+  margin-left: 3%;
+}
+
+.sectionClass{
+  background-color: #D0DB97;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 6% 0px;
+}
+
+.titleDiv{
+  font-weight:bold;
+  font-size:22px;
+  border-bottom: 2px solid #5B6C5D;
+}
+
+.sectionParagraph{
+  margin-left:8%;
+  margin-right: 6%;
+  font-size:18px;
+}
+
+.boldSpan{
+  font-weight: bold;
+}
+
+ul,ol {
+  margin-left: 6%;
+}
+
+h1,h2,h3,h4 {
+  text-align: center;
+}
+
+.doubleLi > li > div:first-of-type {
+  font-weight: bold;
+}
+
+#personalInfo{
+  padding: 15px;
+  background-color: #69B578;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 650px){
+
+  .divMainInfo{
+    float: left;
+    width: 70%;
+  }
+
+  .cvImage{
+    width: 140px;
+    display: unset;
+  }
+
+  .bodyBackground{
+    margin: 3% 10%;
+  }
+
+  .sectionClass{
+    padding: 15px;
+    margin: 2% 0px;
+  }
+
+}
